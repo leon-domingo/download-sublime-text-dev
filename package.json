@@ -1,0 +1,16 @@
+{
+  "name": "download-sublime-text-dev",
+  "version": "1.0.0",
+  "description": "Download latest version (dev) of Sublime Text for Linux x64",
+  "main": "main.js",
+  "dependencies": {
+    "nightmare": "^2.3.0",
+    "superagent": "^1.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "download": "node main.js"
+  },
+  "author": "León Domingo",
+  "license": "ISC"
+}
