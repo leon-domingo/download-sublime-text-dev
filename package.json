@@ -4,8 +4,7 @@
   "description": "Download latest version (dev) of Sublime Text for Linux x64",
   "main": "main.js",
   "dependencies": {
-    "nightmare": "^2.3.0",
-    "superagent": "^1.8.3"
+    "nightmare": "^2.3.0"
   },
   "devDependencies": {},
   "scripts": {
