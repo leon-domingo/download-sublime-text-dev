@@ -33,6 +33,7 @@ Nightmare({ show: false })
         fs.writeFile(LAST_VERSION_FILENAME, versionActual, err => {
           if (err) {
             console.error(err)
+            process.exit(1)
           }
         })
 
